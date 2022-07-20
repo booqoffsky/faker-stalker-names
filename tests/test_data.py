@@ -1,6 +1,7 @@
 import pytest
 from faker_stalker_names import ru_RU as ru
 from faker_stalker_names import en_US as en
+from faker_stalker_names import uk_UA as uk
 
 
 @pytest.mark.parametrize(
@@ -10,6 +11,8 @@ from faker_stalker_names import en_US as en
         ru.last_names,
         en.first_names,
         en.last_names,
+        uk.first_names,
+        uk.last_names,
     ],
 )
 @pytest.mark.parametrize(

@@ -49,11 +49,9 @@ def test_name_call() -> None:
     fake.add_provider(Provider)
     firstname, lastname = fake.stalker_name().split(" ")
     assert firstname in (
-            Provider.first_names["stalker"] + Provider.first_names["bandit"]
+        Provider.first_names["stalker"] + Provider.first_names["bandit"]
     )
-    assert lastname in (
-            Provider.last_names["stalker"] + Provider.last_names["bandit"]
-    )
+    assert lastname in (Provider.last_names["stalker"] + Provider.last_names["bandit"])
 
 
 def test_first_name_call() -> None:
@@ -61,7 +59,7 @@ def test_first_name_call() -> None:
     fake.add_provider(Provider)
     firstname = fake.stalker_first_name()
     assert firstname in (
-            Provider.first_names["stalker"] + Provider.first_names["bandit"]
+        Provider.first_names["stalker"] + Provider.first_names["bandit"]
     )
 
 
@@ -69,6 +67,4 @@ def test_last_name_call() -> None:
     fake = Faker()
     fake.add_provider(Provider)
     lastname = fake.stalker_last_name()
-    assert lastname in (
-            Provider.last_names["stalker"] + Provider.last_names["bandit"]
-    )
+    assert lastname in (Provider.last_names["stalker"] + Provider.last_names["bandit"])
