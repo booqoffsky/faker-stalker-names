@@ -4,7 +4,7 @@ _Faker-stalker-names_ is an provider for the [Faker](https://github.com/joke2k/f
 Generate stalker names for your tests and other tasks. Don't forget your friends)
 
 # Localization
-The following localizations are present: `ru_RU`, `en_US`.
+The following localizations are present: `ru_RU`, `en_US`, `uk_UA`.
 
 # Installation
 From PyPi:
