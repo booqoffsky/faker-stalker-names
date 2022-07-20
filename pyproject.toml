@@ -1,11 +1,11 @@
 [tool.poetry]
 name = "faker-stalker-names"
-version = "0.1.0"
+version = "0.1.1"
 description = "Faker provider with stalker names."
 authors = ["Grigory Bukovsky <booqoffsky@yandex.ru>"]
 readme = 'README.md'
 repository = 'https://github.com/booqoffsky/faker-stalker-names'
-keywords = ['faker', 'fun', 'stalker']
+keywords = ['faker', 'fun', 'stalker', 'provider']
 
 [tool.poetry.dependencies]
 python = "^3.7"
