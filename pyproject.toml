@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "faker-stalker-names"
-version = "0.1.1"
+version = "0.1.2"
 description = "Faker provider with stalker names."
 authors = ["Grigory Bukovsky <booqoffsky@yandex.ru>"]
 readme = 'README.md'
