@@ -1,10 +1,10 @@
 # Description
-_Faker-stalker-names_ is an provider for the [Faker](https://github.com/joke2k/faker) Python package. 
+_Faker-stalker-names_ is a provider for the [Faker](https://github.com/joke2k/faker) Python package. 
 
 Generate stalker names for your tests and other tasks. Don't forget your friends)
 
 # Localization
-The following localizations are present: `ru_RU`, `en_US`, `uk_UA`.
+The following localizations are present: `ru_RU`, `en_US`, `uk_UA`, `fr_FR`.
 
 # Installation
 From PyPi:
@@ -21,7 +21,7 @@ from faker_stalker_names.en_US import Provider as StalkerNamesProvider
 fake = Faker()
 fake.add_provider(StalkerNamesProvider)
 ```
-Or pass to constructor:
+Or pass it to the constructor:
 ```
 from faker import Faker
 
