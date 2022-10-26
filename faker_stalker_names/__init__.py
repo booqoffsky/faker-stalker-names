@@ -1,5 +1,5 @@
 from enum import Enum
-from typing import Any, List, Dict
+from typing import Any, Dict, List
 
 from faker.providers import BaseProvider
 
