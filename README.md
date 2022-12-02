@@ -3,6 +3,8 @@
 ![Codecov](https://img.shields.io/codecov/c/github/booqoffsky/faker-stalker-names?style=for-the-badge&token=1W6WD47RFU)
 
 # faker-stalker-names
+![](https://raw.githubusercontent.com/booqoffsky/faker-stalker-names/main/imgs/head.png)
+
 >_Faker-stalker-names_ is a provider for the [Faker](https://github.com/joke2k/faker) Python package that allows you
 >to generate stalker names for your tests and other tasks. 
 >
@@ -10,7 +12,7 @@
 
 # Localizations
 The following localizations are present:
->`ru_RU`, `en_US`, `uk_UA`, `fr_FR`, `de_DE`
+>`de_DE`, `en_US`, `es_ES`, `fr_FR`, `it_IT`, `pl_PL`, `ru_RU`, `uk_UA`
 
 # Installation
 From PyPi:
